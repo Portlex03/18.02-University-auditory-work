@@ -243,7 +243,6 @@ static class Print
 }
 class Info
 {
-    // файлы находятся в bin\Debug\net6.0\files
     public static List<string> fileNames = File.ReadAllLines("files/Names.txt").ToList();
     public static string[] fileSubjects = File.ReadAllLines("files/Subjects.txt");
     public static List<string> fileGroups = File.ReadAllLines("files/Groups.txt").ToList();
